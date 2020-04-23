@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="javascripts/main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Webbutveckling - kurser läsår 2</h1>
+        <table>
+            <thead>
+                <th>Kurskod</th>
+                <th>Kursnamn</th>
+                <th>Period</th>
+            </thead>
+            <tbody id="main"></tbody>
+        </table>
+        <br>
+        <!-- ADD COURSE -->
+        <section>
+            <h3> Lägg till ny kurs</h3>
+            Kurskod: 
+            <input type="text" id="courseId" /> 
+            Kursnamn: 
+            <input type="text" id="courseName" /> 
+            Period
+            <input type="text" id="coursePeriod" /> 
+            <button id="create" class="btn">Lägg till kurs</button> 
+        </section>
+
+
+
+    </div>
+</body>
+</html>
